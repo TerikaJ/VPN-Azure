@@ -26,7 +26,7 @@ In this tutorial, we'll log into our VM, download/install Proton VPN (free versi
 <h2> List of Prerequisites: </h2>
 
 -  Azure Account/Subscription
--  Windows 10 VM ([Tutorial to create a VM](https://github.com/Kelsow96/Creating-VM-s-in-Azure-Windows-10-and-Linux-))
+-  Windows 10 VM ([Tutorial to create a VM](https://github.com/terikaj/azure-begin))
 
 <h2> High-Level Steps: </h2>
 
