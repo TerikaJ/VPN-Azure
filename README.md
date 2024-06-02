@@ -34,56 +34,50 @@ In this tutorial, we will log into our virtual machine (VM), download and instal
 
 <h2> Instructions: </h2>
 
+① Navigate to WhatIsMyIPAddress within your home computer and record the IPv4 address. This will give you more context into how exactly the tunnel works within the VM and your VPN. We're ultimately creating 2 VPNs: one from our home computer into the virtual machine, and one from the virtual machine into Proton VPN. 
+
 #### Current IP address for Home Computer is 104.14.134.35
 #### City: Hayward
-<img width="450" alt="1  IP (Home Computer)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/cac0d689-cd06-49ff-81ff-c1f4a555bcfa">
 
-**_You will need to have a VM already created for this project; if you don't already have one, follow my [tutorial](https://github.com/terikaj/azure-begin) to learn how to create one. For this project specifically, we'll want to create a VM in a region that is not native to ours._**
-<img width="619" alt="4  VM Set-Up" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/ac668cb6-dcd1-41d7-ba62-fc43cd3a6388">
+<img width="550" alt="1  IP (Home Computer)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/cac0d689-cd06-49ff-81ff-c1f4a555bcfa">
+
+***Important: You should already have a VM already created for this project; if you don't already have one, follow this [tutorial](https://github.com/terikaj/azure-begin) to create one. For this project specifically, we'll want to create a VM in a region that is not native to ours. In this example we use: South Africa***
 
 
+<img width="550" alt="4  VM Set-Up" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/ac668cb6-dcd1-41d7-ba62-fc43cd3a6388">
 
-<img src="https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/55bfd30f-7630-4fde-ac26-96f5a6074b2e" alt="VPN Diagram" width="600"/>
 <br>
 <br/>   
 
-① Browse to [WhatIsMyIPAddress](https://whatismyipaddress.com/) within the VM and record the IP address. 
+② Browse to [WhatIsMyIPAddress](https://whatismyipaddress.com/) within the VM and record the IP address. 
 #### Current IP address for VM is 102.37.221.63
 #### City: Johannesburg
-<img width="785" alt="7  IP (VM)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/05db2dea-ec65-42f0-ad9e-ea0322d131b0">
+<img width="550" alt="7  IP (VM)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/05db2dea-ec65-42f0-ad9e-ea0322d131b0">
 
-![image](https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/51fa5616-aad3-4266-b9a2-371253f03362)
 <br>
 <br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;② Download and install Proton VPN (Free). If you don't already have an account, you must sign up. 
-<img width="1304" alt="8  Proton for Windows (Download)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/c118cadd-c745-4c85-950e-7cf1579c5c77">
+③ Download and install Proton VPN (Free). Please ensure that you sign up for an account.  
+<img width="550" alt="8  Proton for Windows (Download)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/c118cadd-c745-4c85-950e-7cf1579c5c77">
 
-
-![image](https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/77184235-93eb-43e6-b9be-31425f7c3db4)
 <br>
 <br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;③ Open the VPN, log in with your account, and select "Fastest" connection. "Fastest" connection is required for a free account. The upgraded version allows the selection of any country!  
-<img width="387" alt="9  Sign into Proton" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/769fd422-3798-42c4-9551-6d3d4cd10f83">
-<img width="923" alt="10  Select Fastest and Connect" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/2e8062ec-aad4-48a0-9c0a-7a286f2d6be0">
+④ Open the VPN, log in with your account, and select "Fastest" connection. "Fastest" connection is required for a free account. The upgraded version allows the selection of any country!  
+<img width="550" alt="9  Sign into Proton" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/769fd422-3798-42c4-9551-6d3d4cd10f83">
+<img width="550" alt="10  Select Fastest and Connect" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/2e8062ec-aad4-48a0-9c0a-7a286f2d6be0">
 
-
-![image](https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/99b1c46f-294f-4efe-bfb9-a40fe70d134a)
-![Capture](https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/8b1e8000-7f38-4850-ba19-efe4f89b4fb6)
 <br>
 <br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;④ Browse back to [WhatIsMyIPAddress](https://whatismyipaddress.com/) within the VM and record the new IP address. 
+&#9316; Browse back to [WhatIsMyIPAddress](https://whatismyipaddress.com/) within the VM and record the new IP address. 
 
 #### New IP address for VM is 89.39.107.198 
 #### City: Darad Kola
 
 Our VM's public IP address (the one assigned by Azure) is now being masked by our new VPN IP address (37.19.200.2). So, any web traffic will now be routed through the new IP address VPN server, encrypting and protecting our web data.  
-<img width="804" alt="11  IP (VPN)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/0b940e57-7904-45b1-9c87-9919a3eb511b">
+<img width="550" alt="11  IP (VPN)" src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/0b940e57-7904-45b1-9c87-9919a3eb511b">
 
-
-![image](https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/08d92b1a-960c-4d06-baf2-b7340583b369)
 <br>
 <br/>
 
