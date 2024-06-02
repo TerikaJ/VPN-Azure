@@ -60,6 +60,6 @@ In this tutorial, we will log into our virtual machine (VM), download and instal
 <br>
 <br/>
 
-<h2> Summary </h2>
+<h2> Conclusion </h2>
 
 In conclusion, we logged into our virtual machine (VM), installed Proton VPN (free version), noted our current IP address, activated the VPN in a new region, and confirmed our new IP address. This process demonstrates how to use a VPN to change your IP location for added security and privacy.
