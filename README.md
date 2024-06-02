@@ -1,26 +1,29 @@
-<h1> Virtual Private Networks (VPN) </h1>
+<h1> Virtual Private Networks (VPN) 🛡️🔐 </h1> 
 
 <img src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/e5433c45-2361-48de-9d7e-ef90a84a01d2" alt="VPN Diagram" width="600"/>
 
 <h2> What is a Virtual Private Network (VPN)?</h2>
 
 A Virtual Private Network (VPN) is a service that creates a secure, encrypted connection over a less secure network, such as the Internet. It allows users to send and receive data as if their devices were directly connected to a private network, ensuring privacy and security by masking the user's IP address and encrypting data traffic. VPNs protect sensitive information, maintain privacy, and access restricted or geo-blocked content. 
+
+<img src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/271da2cf-f7ff-4a5c-8013-f461396c2a88" alt="VPN Diagram" width="275"/>
+
 <br>
 <br/>
 
-<img src="https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/32c52ad1-1197-4ea9-a95e-4e360c5cea25" alt="Proton VPN" width="500" />
-
 <h2>Overview</h2>
-In this tutorial, we'll log into our VM, download/install Proton VPN (free version), note our current IP, activate our VPN in a new region, and see our new IP address. 
+In this tutorial, we will log into our virtual machine (VM), download and install the free version of Proton VPN, check and note our current IP address, activate the VPN in a new region, and then verify our new IP address.
 
-<h2> Environments and Technologies Used: </h2>
+<h3> Environments and Technologies Used: </h3>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop for MacOS
 - Proton VPN (free)
+- "What Is My IP Address"
 
-<h2> Operating Systems Used: </h2>
+<h3> Operating Systems Used: </h3>
 
+-  MacOS
 -  Windows 10
 
 <h2> List of Prerequisites: </h2>
@@ -28,19 +31,19 @@ In this tutorial, we'll log into our VM, download/install Proton VPN (free versi
 -  Azure Account/Subscription
 -  Windows 10 VM ([Tutorial to create a VM](https://github.com/terikaj/azure-begin))
 
-<h2> High-Level Steps: </h2>
+<h2> Instructions Overview: </h2>
 
 **_You will need to have a VM already created for this project; if you don't already have one, follow my [tutorial](https://github.com/terikaj/azure-begin) to learn how to create one. For this project specifically, we'll want to create a VM in a region that is not native to ours._**
 <img src="https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/55bfd30f-7630-4fde-ac26-96f5a6074b2e" alt="VPN Diagram" width="600"/>
 <br>
 <br/>
-  
-  1. Browse to https://whatismyipaddress.com/ within the VM and record the IP address.
-  2. Download and Install Proton VPN (Free). If you don't already have an account, you must sign up.
-  3. Open the VPN and choose a VPN server in another country.
-  4. Browse to https://whatismyipaddress.com/ within the VM and record the new IP address.
 
-<h2> Steps: </h2>     
+&nbsp;&nbsp;&nbsp;&nbsp;① Browse to [WhatIsMyIPAddress](https://whatismyipaddress.com/) within the VM and record the IP address.  
+&nbsp;&nbsp;&nbsp;&nbsp;② Download and install Proton VPN (Free). If you don't already have an account, you must sign up.  
+&nbsp;&nbsp;&nbsp;&nbsp;③ Open the VPN and choose a VPN server in another country.  
+&nbsp;&nbsp;&nbsp;&nbsp;④ Browse to [WhatIsMyIPAddress](https://whatismyipaddress.com/) within the VM and record the new IP address.
+
+<h3> Instructions: </h3>     
 
   1. Browse to https://whatismyipaddress.com/ within the VM and record the IP address. Our current IP address is 20.11.4.178
 ![image](https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/51fa5616-aad3-4266-b9a2-371253f03362)
