@@ -34,7 +34,7 @@ In this tutorial, we will log into our virtual machine (VM), download and instal
 
 <h2> Instructions: </h2>
 
-① Navigate to WhatIsMyIPAddress within your home computer and record the IPv4 address. This will give you more context into how exactly the tunnel works within the VM and your VPN. We're ultimately creating 2 VPNs: one from our home computer into the virtual machine, and one from the virtual machine into Proton VPN. 
+① Navigate to [WhatIsMyIPAddress](https://whatismyipaddress.com/) within your home computer and record the IPv4 address. This will give you more context into how exactly the tunnel works within the VM and your VPN. We're ultimately creating 2 VPNs: one from our home computer into the virtual machine, and one from the virtual machine into Proton VPN. 
 
 #### Current IP address for Home Computer is 104.14.134.35
 #### City: Hayward
