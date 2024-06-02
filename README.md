@@ -1,5 +1,6 @@
-<h1> Virtual Private Network (VPN) </h1>
-<img src="https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/4d965d10-0bbd-4e2c-9820-05546c8dd3ae" alt="VPN Diagram" width="600"/>
+<h1> Virtual Private Networks (VPN) </h1>
+
+<img src="https://github.com/TerikaJ/VPN-Azure/assets/136477450/e5433c45-2361-48de-9d7e-ef90a84a01d2" alt="VPN Diagram" width="600"/>
 
 <h2> What is a Virtual Private Network (VPN)?</h2>
 
@@ -29,7 +30,7 @@ In this tutorial, we'll log into our VM, download/install Proton VPN (free versi
 
 <h2> High-Level Steps: </h2>
 
-**_You will need to have a VM already created for this project; if you don't already have one, follow my [tutorial](https://github.com/Kelsow96/Creating-VM-s-in-Azure-Windows-10-and-Linux-) to learn how to create one. For this project specifically, we'll want to create a VM in a region that is not native to ours._**
+**_You will need to have a VM already created for this project; if you don't already have one, follow my [tutorial](https://github.com/terikaj/azure-begin) to learn how to create one. For this project specifically, we'll want to create a VM in a region that is not native to ours._**
 <img src="https://github.com/Kelsow96/VIrtual-Private-Networks/assets/169297569/55bfd30f-7630-4fde-ac26-96f5a6074b2e" alt="VPN Diagram" width="600"/>
 <br>
 <br/>
