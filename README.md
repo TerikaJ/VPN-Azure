@@ -84,3 +84,12 @@ Our VM's public IP address (the one assigned by Azure) is now being masked by ou
 <h2> Conclusion </h2>
 
 In conclusion, we logged into our virtual machine (VM), installed Proton VPN (free version), noted our current IP address, activated the VPN in a new region, and confirmed our new IP address. This process demonstrates how to use a VPN to change your IP location for added security and privacy.
+
+
+<h1><p align=center> DONE! Good job! </p></h1>
+
+<h2><p align=center>The Next Demonstration:<br><a href="https://github.com/terikaj/configure-ad"> Active Directory Implementation </a></p></h2>
+
+<p align=right>Please delete & clean up your Azure resources when finished!<br>
+If you're unsure of how to do this, please click <a href="https://github.com/terikaj/azure-begin">HERE</a>
+</p>
